@@ -65,7 +65,7 @@ fun SplashScreen(onSplashFinished: () -> Unit) {
             .background(MaterialTheme.colorScheme.primary)
     ) {
         Image(
-            painter = painterResource(id = R.drawable.r_logo), // Replace with your logo
+            painter = painterResource(id = R.drawable.r_logo),
             contentDescription = "logo",
             modifier = Modifier
                 .size(600.dp)
